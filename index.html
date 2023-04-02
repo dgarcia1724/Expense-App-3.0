@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="one">
+        <h1>Budget</h1>
+        <input type="text" placeholder="Enter Total Amount" />
+        <button class="setBudgetBtn">Set Budget</button>
+      </div>
+      <div class="two">
+        <h1>Expenses</h1>
+        <input
+          class="inputTitleProduct"
+          type="text"
+          placeholder="Enter Title of Product"
+        />
+        <input
+          class="inputCostProduct"
+          type="text"
+          placeholder="Enter Cost of Product"
+        />
+        <button class="checkAmountBtn">Check Amount</button>
+        <button class="updateBtn">Update</button>
+      </div>
+      <div class="three">
+        <div class="a">
+          <p>Total Budget</p>
+          <span class="displayTotalBudget">0</span>
+        </div>
+        <div class="a">
+          <p>Expenses</p>
+          <span class="displayExpenses">0</span>
+        </div>
+        <div class="a">
+          <p>Balance</p>
+          <span class="displayBalance">0</span>
+        </div>
+      </div>
+      <div class="four">
+        <h1>Expense List</h1>
+        <div class="newList"></div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
